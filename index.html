@@ -2,8 +2,13 @@
     <head>
         <title> Robinson-Schensted Algorithm</title>
 
+        <!-- load ui -->
+        <link type="text/css" href="css/smoothness/jquery-ui-1.8.16.custom.css" rel="Stylesheet" />
+        <link type="text/css" href="css/style.css" rel="Stylesheet" />
+
         <!-- load jquery -->
         <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.8.16.custom.min.js"></script>
 
         <!-- load everything else -->
         <script src = "js/List.js"></script>
@@ -12,7 +17,24 @@
 
     </head>
     <body>
-        <div id = "content"></div>
-        <input id = "perm" /><button type = "submit" onClick = "doRS()">Go!</button>
+        <div id = "content">
+            <p id = "version"></p>
+            <h1>Robinson-Schensted Algorithm</h1>
+            <div id = "toolbar" class = "ui-widget-header ui-corner-all">
+                <input id = "in" class = "ui-corner-all">
+                <button id = "go">Apply Robinson-Schensted</button>
+            </div>
+           
+            <div id = "message" class = "dialog"></div>
+
+
+            <div id = "yt" class = "ui-widget-content ui-corner-all">
+                <div id = "yt_left"></div>
+                <div id = "yt_right"></div>
+            </div>
+            <div id = "credits" class = "ui-widget-header ui-corner-all">
+                <table><tr><td align="left"></td><td align="right">Code by <a href = "http://www.math.ucla.edu/~asoffer">Andy Soffer</a></td></tr></table>
+            </div>
+        </div>
     </body>
 </html>

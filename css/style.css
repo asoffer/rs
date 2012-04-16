@@ -1,0 +1,98 @@
+body{
+    font: 8pt "Trebuchet MS" sans-serif;
+    margin: 30 50px;
+    background: #ededed;
+    text-align: center;
+}
+
+#content,
+#content p{
+    margin: 0 auto;
+    width: 800px;
+}
+
+h1{
+    padding: 0;
+    margin: 10;
+    text-align: left;
+}
+
+#version{
+    text-align: right;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+
+}
+
+#vers{
+    text-decoration: none;
+    color: #000;
+}
+
+#vers:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#toolbar{
+    text-align: left;
+    padding: 2px 4px;
+}
+
+#about{
+    float: right;
+    padding: 0 2px;
+    margin: 2px 3px;
+}
+
+#in{
+    width: 300px;
+    background: #999;
+    border: 1px #777 solid;
+    padding: 5px;
+}
+
+.dialog{
+    font: 10pt "Trebuchet MS" sans-serif;
+    text-align: left;
+}
+
+#yt,
+#yt p{
+    margin: 5px 0;
+    padding: 30px;
+    min-height: 50%;
+    text-align: left;
+    font-size: 14pt;
+}
+
+#yt_left{
+    float: left;
+    width: 48%;
+    min-height: 50%;
+}
+
+#yt_right{
+    float: right;
+    width: 48%;
+    min-height: 50%;
+}
+
+#credits{
+    padding: 3px;
+}
+
+#credits table{
+    width: 100%;
+}
+
+#credits td{
+    width: 50%;
+    font: 8pt sans-serif;
+}
+
+.ui-state-error{
+    margin: 20px 100px;
+    padding: 20px;
+}
